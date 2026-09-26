@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semarang City Website - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../index.html">Azaria.</a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <ul class="nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../skills.html">Skills</a></li>
+                    <li><a class="active" href="../portfolio.html">Portfolio</a></li>
+                    <li><a href="../cv.html">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Header Section -->
+        <section class="section-header" style="margin-bottom: 2rem;">
+            <div class="container">
+                <a class="btn small ghost" href="../projects.html" style="margin-bottom: 1rem; display: inline-block;">← Back to Projects</a>
+                <h1>1998 Reformation Era Website</h1>
+                <p>A educational web portal covering the 1998 Reformation Era's</p>
+            </div>
+        </section>
+
+        <section class="container" style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 3rem;">
+            <!-- Screenshot Preview -->
+            <div class="card" style="padding: 0; overflow: hidden; border-radius: 12px; border: 1px solid rgba(0,0,0,0.08);">
+                <img src="../Foto/sejarah2.png" alt="Semarang City Website Preview" style="width: 100%; display: block;">
+            </div>
+
+            <!-- Project Details Wrapper -->
+            <div class="card" style="padding: 2rem; display: flex; flex-direction: column; gap: 1.5rem;">
+                
+                <!-- Live Demo Link -->
+                <div style="padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.08);">
+                    <h2 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #1e293b;">Live Demo</h2>
+                    <a href="https://azariaanas.github.io/EraReformasi1998/" target="_blank" rel="noopener noreferrer" style="color: #2563eb; font-weight: 500; text-decoration: underline;">
+                        https://azariaanas.github.io/EraReformasi1998/ ↗
+                    </a>
+                </div>
+
+                <!-- Project Overview -->
+                <div style="padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.08);">
+                    <h2 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #1e293b;">Project Overview</h2>
+                    <p style="color: #475569; line-height: 1.6;">
+                        A collaborative website project designed to educate users on Indonesia's 1998 Reformation Era, featuring historical timelines, key political shifts, national challenges, and a visual photo gallery wrapped in an accessible layout.
+                    </p>
+                </div>
+
+                <!-- Roles & Responsibilities -->
+                <div style="padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.08);">
+                    <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem; color: #1e293b;">Roles & Responsibilities</h3>
+                    <ul class="bullet-list" style="color: #475569; padding-left: 1.2rem; line-height: 1.8;">
+                        <li>Co-developed the website layout and content in a 2-person team.</li>
+                        <li>Structured pages and styled the layout using HTML & CSS.</li>
+                        <li>Implemented interactive features using JavaScript.</li>
+                    </ul>
+                </div>
+
+                <!-- Tech Stack & Results -->
+                <div>
+                    <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem; color: #1e293b;">Technologies & Deliverables</h3>
+                    <ul class="bullet-list" style="color: #475569; padding-left: 1.2rem; line-height: 1.8;">
+                        <li><strong>Tech Stack:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Result:</strong> An educational, well-structured, and interactive historical web portal.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Azaria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../main.js"></script>
+</body>
+</html>
